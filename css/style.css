@@ -1,0 +1,242 @@
+/*通用部分*/
+body{
+	padding: 0;
+	margin: 0;
+	font: 16px "Aleo";
+}
+img{
+	border: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*清除浮动*/
+.clearfix:after{
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0;
+}
+.clearfix{
+	zoom: 1;
+}	
+/*主体样式部分*/
+.main{
+	width: 1100px;
+	margin: 0 auto;
+}
+/*头部*/
+.header{
+	height: 110px;
+}
+.header .logo{
+	display:inline-block;
+	padding-top: 40px;
+}
+.header .nav{
+	float:right;
+	display:inline-block;
+	line-height: 110px;
+	font-size: 0;
+}
+.header .nav a{
+	padding-left: 49px;
+	font-size: 14px;
+	color: #3b3b3b;
+}
+/*广告部分*/
+.banner{
+	width: 1500px;
+	height: 360px;
+	padding-top: 210px;
+	background:url(../images/index-banner.jpg) center no-repeat;
+	border-bottom: 4px solid #f34949;
+	
+}
+.banner .banner-txt{
+	width: 802px;
+	margin: 0 auto;
+}
+.banner .banner-intro{
+	margin: 18px;
+	text-align: center;
+	/*letter-spacing: 1px;*/
+	color: #ffffff;
+}
+.banner .banner-intro i{
+	position: relative;
+	width: 40px;
+	height:1px;
+	top:-7px;
+	display: inline-block;
+	margin: 0 27px;
+	background-color:#ffffff;
+}
+/*主体部分 第一部分*/
+.imain-1{
+	height: 796px;
+	
+}
+.imain-1 .themenu{
+	text-align: center;
+}
+.imain-1 ul{
+	width: 1300px;
+	padding: 0;
+	margin-top: 80px;
+}
+.imain-1 ul li{
+	position: relative;
+	float: left;
+	width: 492px;
+	height:95px;
+	margin-right:117px;
+}
+.imain-1 ul li .tit{
+	float: left;
+	padding-right: 19px;
+	color: #555555;
+	background: #ffffff;
+}
+.imain-1 ul li .fr{
+	float: right;
+	color: #555555;
+}
+.imain-1 ul li .intro{
+	position: absolute;
+	top: 25px;
+	color: #b7b7b7;
+	font-size: 12px;
+}
+.imain-1 ul li::after{
+	position: absolute;
+	top: 10px;
+	content: "";
+	display:block;
+	width: 422px;
+	height:1px;
+	background-color: #e3e1e1;
+	z-index: -1;
+}
+.imain-1 .load{
+	margin-top: 92px;
+	text-align: center;
+}
+/*第二部分*/
+h3 a{
+	font-size: 20px;
+	color: #3b3b3b;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+i.tit-line{
+	position:relative;
+	width: 200px;
+	height: 1px;
+	top: -8px;
+	right: -20px;
+	display: inline-block;
+	background: #e5e3e3;
+}
+.imain-2{
+	position: relative;
+	height: 563px;
+}
+.imain-2 .change-point{
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+.imain-2 .change-point a{
+	width: 9px;
+	height: 9px;
+	display: inline-block;
+	margin-left:11px; 
+	background-image: url(../images/ico-dian-grey.png);
+}
+.imain-2 .change-point a.current{
+	background-image: url(../images/ico-dian-black.png);
+}
+.imain-2 .slider{
+	overflow: hidden;
+}
+.imain-2 ul{
+	width: 5000px;
+	height: 269px;
+	padding: 0;
+	margin: 79px -58px 29px 0;
+}
+.imain-2 ul li{
+	float: left;
+	margin-right: 58px;
+}
+.imain-2 ul li .tit{
+	float: left;
+}
+.imain-2 ul li .price{
+	float: right;
+}
+.imain-2 ul li .stars{
+	clear: left;
+}
+/*第三部分*/
+.imain-3{
+	height: 728px;
+}
+.imain-3 .imain-3-tit{
+	margin-bottom: 131px;
+}
+.imain-3 .imgcontainer img{
+	float: left;
+}
+.imain-3 .imgcontainer .col-2{
+	float:left;
+}
+/*尾部*/
+.footer{
+	height: 317px;
+	/*margin-right: -119px; */
+	line-height: 30px;
+	color:#ffffff;
+	background: #3b3b3b;
+}
+.footer a{
+	color: #ffffff;
+}
+.footer .footer-content{
+	position: relative;
+}
+.footer .main div{
+	float: left;
+	margin:100px 0 0 0;
+}
+.footer .main .col-1{
+	float: left;
+}
+.footer .main .col-2{
+	float: left;
+	margin-left: 103px;
+}
+.footer .main .col-3 a{
+	display: block;
+	margin-left: 104px;
+}
+.footer .main .col-4 .logo-foot{
+	position: absolute;
+	top: 85px;
+	right: 49px;
+	margin: 0;
+}
+.footer .main .col-4 .copy{
+	position: absolute;
+	top: 159px;
+	right: 41px;
+	margin:0;
+}
+.footer .main .col-4 .copy span{
+	font-weight: bolder;
+}
